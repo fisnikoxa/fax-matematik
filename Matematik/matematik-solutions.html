@@ -1354,9 +1354,280 @@
         </div>
     </div>
     
+    <!-- Detyra 11 -->
+    <div class="problem-section">
+        <div class="problem">
+            <h2>Detyra 11</h2>
+            <div class="problem-text">
+                <p>\(4^{x+1} = 16^x\). Gjej x.</p>
+            </div>
+        </div>
+        
+        <div class="solution">
+            <h3>Zgjidhja</h3>
+            <div class="solution-text">
+                <div class="step">
+                    <div class="step-title">Hapi 1: Shndërrojmë gjithçka në fuqi të 2</div>
+                    <p>\(4 = 2^2\), prandaj \(4^{x+1} = (2^2)^{x+1} = 2^{2(x+1)} = 2^{2x+2}\)</p>
+                    <p>\(16 = 2^4\), prandaj \(16^x = (2^4)^x = 2^{4x}\)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Hapi 2: Barazojmë eksponentët</div>
+                    <p>\(2^{2x+2} = 2^{4x}\)</p>
+                    <p>\(2x + 2 = 4x\)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Hapi 3: Zgjidhim për x</div>
+                    <p>\(2 = 4x - 2x\)</p>
+                    <p>\(2 = 2x\)</p>
+                    <p>\(x = 1\)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Verifikim</div>
+                    <p>\(4^{1+1} = 4^2 = 16\)</p>
+                    <p>\(16^1 = 16\)</p>
+                    <p>✓ Përkojnë!</p>
+                </div>
+                
+                <div class="answer">\(x = 1\)</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Detyra 12 -->
+    <div class="problem-section">
+        <div class="problem">
+            <h2>Detyra 12</h2>
+            <div class="problem-text">
+                <p>\(|x + y - 3| + |x - y - 1| = 0\). Gjej x.</p>
+            </div>
+        </div>
+        
+        <div class="formula-box">
+            <h4>📐 Rregulla: Shuma e Vlerave Absolute</h4>
+            <p style="font-size: 1.1em; margin: 10px 0;">
+                Nëse \(|A| + |B| = 0\), atëherë:<br>
+                \(A = 0\) DHE \(B = 0\)<br>
+                (sepse të dyja janë jo-negative dhe shuma është zero)
+            </p>
+        </div>
+        
+        <div class="solution">
+            <h3>Zgjidhja</h3>
+            <div class="solution-text">
+                <div class="step">
+                    <div class="step-title">Hapi 1: Zbatojmë rregullën</div>
+                    <p>Për të qenë shuma e dy vlerave absolute zero, të dyja duhet të jenë zero:</p>
+                    <p>\(|x + y - 3| = 0\) → \(x + y - 3 = 0\) → \(x + y = 3\)</p>
+                    <p>\(|x - y - 1| = 0\) → \(x - y - 1 = 0\) → \(x - y = 1\)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Hapi 2: Kemi sistem ekuacionesh</div>
+                    <p>Ekuacioni 1: \(x + y = 3\)</p>
+                    <p>Ekuacioni 2: \(x - y = 1\)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Hapi 3: Mbledhim të dy ekuacionet</div>
+                    <p>\((x + y) + (x - y) = 3 + 1\)</p>
+                    <p>\(2x = 4\)</p>
+                    <p>\(x = 2\)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Hapi 4: Gjejmë y (opsionale)</div>
+                    <p>Nga \(x + y = 3\): \(2 + y = 3\) → \(y = 1\)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Verifikim</div>
+                    <p>\(|2 + 1 - 3| + |2 - 1 - 1| = |0| + |0| = 0\) ✓</p>
+                </div>
+                
+                <div class="answer">\(x = 2\) (dhe \(y = 1\))</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Detyra 13 -->
+    <div class="problem-section">
+        <div class="problem">
+            <h2>Detyra 13</h2>
+            <div class="problem-text">
+                <p>Thjeshto \(|x - 4| + 2|3 - x|\) nëse \(3 < x < 4\).</p>
+            </div>
+        </div>
+        
+        <div class="formula-box">
+            <h4>📐 Rregulla: Thjështimi i Vlerës Absolute</h4>
+            <p style="font-size: 1.0em; margin: 10px 0;">
+                \(|a| = \begin{cases} a & \text{nëse } a \geq 0 \\ -a & \text{nëse } a < 0 \end{cases}\)
+            </p>
+        </div>
+        
+        <div class="solution">
+            <h3>Zgjidhja</h3>
+            <div class="solution-text">
+                <div class="step">
+                    <div class="step-title">Hapi 1: Analizojmë \(x - 4\) kur \(3 < x < 4\)</div>
+                    <p>Meqenëse \(x < 4\), kemi \(x - 4 < 0\)</p>
+                    <p>Prandaj: \(|x - 4| = -(x - 4) = 4 - x\)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Hapi 2: Analizojmë \(3 - x\) kur \(3 < x < 4\)</div>
+                    <p>Meqenëse \(x > 3\), kemi \(3 - x < 0\)</p>
+                    <p>Prandaj: \(|3 - x| = -(3 - x) = x - 3\)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Hapi 3: Zëvendësojmë në shprehjen origjinale</div>
+                    <p>\(|x - 4| + 2|3 - x| = (4 - x) + 2(x - 3)\)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Hapi 4: Thjeshojmë</div>
+                    <p>\(= 4 - x + 2x - 6\)</p>
+                    <p>\(= x + 4 - 6\)</p>
+                    <p>\(= x - 2\)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Verifikim me një vlerë specifike</div>
+                    <p>Le të testojmë me \(x = 3.5\):</p>
+                    <p>Origjinale: \(|3.5 - 4| + 2|3 - 3.5| = |{-0.5}| + 2|{-0.5}| = 0.5 + 1 = 1.5\)</p>
+                    <p>E thjeshtuar: \(3.5 - 2 = 1.5\) ✓</p>
+                </div>
+                
+                <div class="answer">\(x - 2\) për \(3 < x < 4\)</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Detyra 14 -->
+    <div class="problem-section">
+        <div class="problem">
+            <h2>Detyra 14</h2>
+            <div class="problem-text">
+                <p>Gjej shumën e vlerave të mundshme të x që kënaqin ekuacionin \(|~|2x + 4| - 2~| = 4\).</p>
+            </div>
+        </div>
+        
+        <div class="solution">
+            <h3>Zgjidhja</h3>
+            <div class="solution-text">
+                <div class="step">
+                    <div class="step-title">Hapi 1: Zgjidhim vlerën absolute të jashtme</div>
+                    <p>\(|~|2x + 4| - 2~| = 4\)</p>
+                    <p>Kjo jep dy raste:</p>
+                    <p><strong>Rasti A:</strong> \(|2x + 4| - 2 = 4\)</p>
+                    <p><strong>Rasti B:</strong> \(|2x + 4| - 2 = -4\)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Hapi 2: Zgjidhim Rastin A</div>
+                    <p>\(|2x + 4| - 2 = 4\)</p>
+                    <p>\(|2x + 4| = 6\)</p>
+                    <p>Kjo jep: \(2x + 4 = 6\) ose \(2x + 4 = -6\)</p>
+                    <p>• Nga \(2x + 4 = 6\): \(2x = 2\) → \(x = 1\)</p>
+                    <p>• Nga \(2x + 4 = -6\): \(2x = -10\) → \(x = -5\)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Hapi 3: Zgjidhim Rastin B</div>
+                    <p>\(|2x + 4| - 2 = -4\)</p>
+                    <p>\(|2x + 4| = -2\)</p>
+                    <p>Kjo është e <strong>pamundur</strong> sepse vlera absolute nuk mund të jetë negative!</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Hapi 4: Verifikojmë zgjidhjet</div>
+                    <p>Për \(x = 1\): \(|~|2(1) + 4| - 2~| = |~|6| - 2~| = |4| = 4\) ✓</p>
+                    <p>Për \(x = -5\): \(|~|2(-5) + 4| - 2~| = |~|-6| - 2~| = |6 - 2| = 4\) ✓</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Hapi 5: Shuma e zgjidhjeve</div>
+                    <p>Vlerat: \(x = 1\) dhe \(x = -5\)</p>
+                    <p>Shuma: \(1 + (-5) = -4\)</p>
+                </div>
+                
+                <div class="answer">Shuma: \(-4\)</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Detyra 15 -->
+    <div class="problem-section">
+        <div class="problem">
+            <h2>Detyra 15</h2>
+            <div class="problem-text">
+                <p>Gjej prodhimin e vlerave të mundshme të x që kënaqin ekuacionin \(|2x + 3| = |5 - 3x|\).</p>
+            </div>
+        </div>
+        
+        <div class="formula-box">
+            <h4>📐 Rregulla: Barazia e Dy Vlerave Absolute</h4>
+            <p style="font-size: 1.0em; margin: 10px 0;">
+                Nëse \(|A| = |B|\), atëherë:<br>
+                \(A = B\) OSE \(A = -B\)
+            </p>
+        </div>
+        
+        <div class="solution">
+            <h3>Zgjidhja</h3>
+            <div class="solution-text">
+                <div class="step">
+                    <div class="step-title">Hapi 1: Zbatojmë rregullën për barazi të vlerave absolute</div>
+                    <p>\(|2x + 3| = |5 - 3x|\) jep dy raste:</p>
+                    <p><strong>Rasti 1:</strong> \(2x + 3 = 5 - 3x\)</p>
+                    <p><strong>Rasti 2:</strong> \(2x + 3 = -(5 - 3x)\)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Hapi 2: Zgjidhim Rastin 1</div>
+                    <p>\(2x + 3 = 5 - 3x\)</p>
+                    <p>\(2x + 3x = 5 - 3\)</p>
+                    <p>\(5x = 2\)</p>
+                    <p>\(x = \frac{2}{5}\)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Hapi 3: Zgjidhim Rastin 2</div>
+                    <p>\(2x + 3 = -(5 - 3x)\)</p>
+                    <p>\(2x + 3 = -5 + 3x\)</p>
+                    <p>\(2x - 3x = -5 - 3\)</p>
+                    <p>\(-x = -8\)</p>
+                    <p>\(x = 8\)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Hapi 4: Verifikojmë zgjidhjet</div>
+                    <p>Për \(x = \frac{2}{5}\): \(|2(\frac{2}{5}) + 3| = |\frac{4}{5} + 3| = |\frac{19}{5}| = \frac{19}{5}\)</p>
+                    <p>\(|5 - 3(\frac{2}{5})| = |5 - \frac{6}{5}| = |\frac{19}{5}| = \frac{19}{5}\) ✓</p>
+                    <p></p>
+                    <p>Për \(x = 8\): \(|2(8) + 3| = |19| = 19\)</p>
+                    <p>\(|5 - 3(8)| = |5 - 24| = |-19| = 19\) ✓</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-title">Hapi 5: Prodhimi i zgjidhjeve</div>
+                    <p>Vlerat: \(x = \frac{2}{5}\) dhe \(x = 8\)</p>
+                    <p>Prodhimi: \(\frac{2}{5} \times 8 = \frac{16}{5}\)</p>
+                </div>
+                
+                <div class="answer">Prodhimi: \(\frac{16}{5}\) ose \(3.2\)</div>
+            </div>
+        </div>
+    </div>
+    
     <div style="text-align: center; padding: 40px; color: #888;">
-        <p>Zgjidhlet e Detyrave 1-10 të Kapitullit 8</p>
-        <p style="font-size: 0.9em; margin-top: 10px;">16 detyra të tjera po përgatiten...</p>
+        <p>Zgjidhlet e Detyrave 1-15 të Kapitullit 8</p>
+        <p style="font-size: 0.9em; margin-top: 10px;">11 detyra të tjera po përgatiten...</p>
     </div>
     
 </body>
