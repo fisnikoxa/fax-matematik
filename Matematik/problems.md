@@ -116,7 +116,7 @@ c. $\sqrt{2.89} + \sqrt{6.25} - \sqrt{1.96}$
 
 d. $\frac{2}{\sqrt{5} - 1} + \frac{2}{\sqrt{5} + 1}$
 
-e. $\frac{\sqrt{18 + 3} \cdot \sqrt{29 - \sqrt{16}}}{\sqrt{3}}$
+e. $\frac{\sqrt{18 + 3} \cdot \sqrt[3]{29 - \sqrt[4]{16}}}{\sqrt{3}}$
 
 f. $\sqrt{12^2 + 16^2}$
 
