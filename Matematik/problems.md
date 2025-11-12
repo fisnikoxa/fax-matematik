@@ -151,7 +151,7 @@ $$\frac{1}{\sqrt{2} + \sqrt{4}} + \frac{1}{\sqrt{4} + \sqrt{6}} + ... + \frac{1}
 
 (Hint: $\frac{1}{\sqrt{2} - 1} = \sqrt{2} + 1$)
 
-## 24. $\sqrt{1 + \frac{1}{x}} + \sqrt{x + \frac{5}{x}} = 24 - \sqrt{16 + \frac{16}{x}}$. Find $x + \frac{15}{8}$.
+## 24. $\sqrt{1 + \frac{1}{x}} + \sqrt{9 + \frac{5}{x}} = 24 - \sqrt{16 + \frac{15}{x}}$. Find $x + \frac{15}{x}$.
 
 ## 25. Evaluate $\sqrt{(50 \cdot 51 \cdot 52 \cdot 53) + 1}$.
 
